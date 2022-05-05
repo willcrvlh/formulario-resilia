@@ -1,0 +1,33 @@
+* {   font-family: Arial;   margin: 0;   padding: 0;   box-sizing: border-box;   outline: none;   border: none;   text-decoration: none; }
+body{background-color: #ffb220;
+}
+h1{font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.formulario{
+display: grid;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+max-width: 400px;
+margin: auto;
+}
+.formcontainer{background-color: rgb(216, 213, 213);
+padding: 30px;
+border-radius: 10px;
+}
+.formulario input{width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+    }
+.botao-lista{background-color: #ffb220;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
